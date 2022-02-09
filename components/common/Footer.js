@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Commerce.js
+            Salud y Figura
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
@@ -16,7 +16,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Documentation
+                Avisos de Privacidad
               </a>
               <a
                 href="https://commercejs.com/features"
@@ -24,7 +24,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Features
+                Terminos y Conocimientos
               </a>
             </div>
             <div>
@@ -34,7 +34,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                About
+                Detalle de Envios
               </a>
               <a
                 href="http://slack.commercejs.com/"
@@ -42,14 +42,14 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Community
+                Nuestra communidad
               </a>
             </div>
           </div>
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Follow us
+            Siguenos
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
@@ -77,7 +77,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Angel
+                Facebook
               </a>
               <a
                 href="https://www.linkedin.com/company/chec-chec-commerce-inc.-/"
@@ -85,7 +85,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
+                Youtube
               </a>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Deploy to Netlify
+              Nuestro Website Oficial
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -125,7 +125,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Clone in GitHub
+              Contactanos Ahora
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -134,7 +134,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Contribute
+              Comparte tu Experiencia
             </a>
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
@@ -144,7 +144,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() } Made by UX Dev
             </a>
           </div>
         </div>
