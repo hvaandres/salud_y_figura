@@ -6,7 +6,7 @@ import Footer from '../components/common/Footer';
 const About = () => (
   <Root>
     <Head>
-      <title>About | commerce</title>
+      <title>Acerca de Nosotros | Salud y Figura</title>
     </Head>
     <div className="about-container">
       {/* Row */}
@@ -14,17 +14,17 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
             <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5 justify-content-center">
               <h2 className="font-size-header mb-4">
-                Commerce.js Demo Store
+                Salud y Figura
               </h2>
               <h4 className="font-size-subheader mb-4">
-                This is an open source storefront built using Chec’s headless architecture and the Commerce.js SDK. Commerce.js is a smarter, more efficient way to build eCommerce projects, and we hope you can see that as you explore the world custom eCommerce. Please build on top of, or pick apart this project for your own use. Everything in this project, from the storefront, to the cart, checkout and receipt, is 100% customizable. To build more custom eCommerce projects, using any frontend framework or platform, head over to <a href="https://commercejs.com/" target="_blank" className="cjs-link" rel="noopener noreferrer">commercejs.com</a>.
+              El Dr. Pablo Cruz realiza una consulta médica integral y especializada en bariatria. La consulta incluye: medicamento,  acompañamiento y seguimiento profesional, una  Malteada salud y Figura. Su eje central es la implementación de un estilo de vida saludable cambios de hábitos alimenticios y ejercicio. Contamos con consultas presenciales. Consultorio en Guadalajara, Jalisco y Virtuales á traves de  <a href="https://api.whatsapp.com/send?phone=5213321208071&app=facebook&entry_point=page_cta&fbclid=IwAR0I3ZLggBZ9NE7H3FQKPUu2J890gOuLAYEn-7PTp_2mh_sVYDwGo8iGIDY" target="_blank" className="cjs-link" rel="noopener noreferrer">Whatsapp</a>.
               </h4>
               <div className="about-cjs mt-3 d-flex flex-row">
-                <a className="px-4 py-3 font-color-white about-doc" href="https://commercejs.com/docs/" target="_blank" rel="noopener noreferrer">
-                  Documentation
+                <a className="px-4 py-3 font-color-white about-doc" href="https://saludyfigura.mx/" target="_blank" rel="noopener noreferrer">
+                  Visita Nuestra Pagina
                 </a>
                 <a className="px-4 py-3 about-dev" href="https://commercejs.com/docs/community/" target="_blank" rel="noopener noreferrer">
-                  Guides from the community
+                  Contactanos Ahora
                 </a>
               </div>
             </div>
@@ -52,10 +52,10 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column justify-content-center py-5 px-4 px-sm-5">
             <h3 className="font-size-header mb-4">
-              Deploy to Netlify
+              Ponte en contacto
             </h3>
             <h4 className="font-size-subheader mb-4">
-              If you would like to deploy this project live today, click the button below and watch the magic happen!
+            El Dr. Pablo Cruz realiza una consulta médica integral y especializada en bariatria. La consulta incluye: medicamento, acompañamiento y seguimiento profesional, una Malteada salud y Figura.
             </h4>
             <div className="mt-3">
               <a
@@ -64,7 +64,7 @@ const About = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Deploy to Netlify
+                Llamanos ahora mismo!
               </a>
             </div>
           </div>
@@ -76,10 +76,10 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column justify-content-center py-5 px-4 px-sm-5">
             <h3 className="font-size-header mb-4">
-              Clone in GitHub
+              Platica con nosotros
             </h3>
             <h4 className="font-size-subheader mb-4">
-            If you would like to clone this project and do a manual setup, go to the repository below!
+            Si tienes dudas o preguntas especificas, tu puedes darle click al siguiente link y brindarnos todas esas dudas o preguntas que tienes acerca de nuestros productos y servicios y con gusto te ayudaremos.
             </h4>
             <div className="mt-3">
               <a
@@ -88,7 +88,7 @@ const About = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Clone in GitHub
+                Platica con Nosotros
               </a>
             </div>
           </div>
@@ -116,10 +116,10 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
           <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5">
             <h3 className="font-size-header mb-4">
-              Technical Blog
+              Comparte tu Experiencia
             </h3>
             <h4 className="font-size-subheader mb-4">
-              Read the full technical tutorial here if you want to get into the nitty gritty!
+              Ahora mismo tu puedes compartirnos tu experiencia a traves de nuestro siguiente formulario
             </h4>
             <div className="mt-3">
               <a
@@ -128,7 +128,7 @@ const About = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Read Blog
+                Tu Experiencia
               </a>
             </div>
           </div>
