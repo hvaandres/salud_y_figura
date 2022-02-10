@@ -43,7 +43,7 @@ export default class PaymentDetails extends Component {
               <div className="col-sm-8">
                 <label className="w-100 mb-3 mt-2 mb-sm-0">
                   <p className="mb-1 font-size-caption font-color-light">
-                    Card Number
+                    Numero de Tarjeta
                   </p>
                   <input
                     name="cardNumber"
@@ -71,7 +71,7 @@ export default class PaymentDetails extends Component {
               <div className="col-sm-3">
                 <label className="w-100 mb-3 mt-2 mb-sm-0">
                   <p className="mb-1 font-size-caption font-color-light">
-                    Exp. Month
+                    Mes de exp.
                   </p>
                   <input
                     name="expMonth"
@@ -85,7 +85,7 @@ export default class PaymentDetails extends Component {
               <div className="col-sm-3">
                 <label className="w-100 mb-3 mt-2 mb-sm-0">
                   <p className="mb-1 font-size-caption font-color-light">
-                    Exp. Year
+                    Año de Exp.
                   </p>
                   <input
                     type="number"
@@ -140,7 +140,7 @@ export default class PaymentDetails extends Component {
             checked={selectedGateway === 'stripe'}
             className="mr-3"
           />
-          <p className="font-weight-medium">Credit/debit card (via Stripe)</p>
+          <p className="font-weight-medium">Tarjeta de debito/credito (via Stripe)</p>
         </label>
 
         { selectedGateway === 'stripe' && (
@@ -161,7 +161,7 @@ export default class PaymentDetails extends Component {
     return (
       <>
         <p className="font-size-subheader font-weight-semibold mb-3">
-          Payment Detail
+          Detalles de Pago
         </p>
         <div className="border border-color-gray400 mb-5">
           { this.renderTestGateway() }

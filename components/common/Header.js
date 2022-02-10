@@ -185,10 +185,10 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a className="mr-4 font-color-black">Shop</a>
+              <a className="mr-4 font-color-black">Tienda Online</a>
             </Link>
             <Link href="/about">
-              <a className="font-color-black">About</a>
+              <a className="font-color-black">Acerca de Nosotros</a>
             </Link>
           </div>
           <div className="logo-container">

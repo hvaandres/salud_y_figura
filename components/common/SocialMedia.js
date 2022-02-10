@@ -79,12 +79,12 @@ export default class SocialMedia extends React.Component {
                 className="font-size-display1 mb-3"
                 style={{ maxWidth: '26rem' }}
               >
-                Follow us on Instagram for more updates
+                Siguenos por medio de Instagram, para que veas lo mas reciente acerca de nosotros!
               </p>
               <div className="d-flex">
                 <Link href="/about">
                   <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-                    <p className="mr-3">Follow us</p>
+                    <p className="mr-3">Siguenos</p>
                     <img src="/icon/arrow-long-right.svg" alt="Arrow icon"/>
                   </a>
                 </Link>

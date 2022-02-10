@@ -60,7 +60,7 @@ const About = () => (
             <div className="mt-3">
               <a
                 className="px-4 py-3 flex-grow-1 font-color-white about-net"
-                href="https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store"
+                href="https://api.whatsapp.com/send?phone=5213321208071&app=facebook&entry_point=page_cta&fbclid=IwAR0LnuDDTtuqFEwrlNNkylskEsW6aebnuJEyJAmrLM-vx8TZ_aQgHbNDqu8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -84,7 +84,7 @@ const About = () => (
             <div className="mt-3">
               <a
                 className="px-4 py-3 flex-grow-1 font-color-white about-gb"
-                href="https://github.com/chec/commercejs-nextjs-demo-store"
+                href="m.me/malteadas.sf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -119,12 +119,12 @@ const About = () => (
               Comparte tu Experiencia
             </h3>
             <h4 className="font-size-subheader mb-4">
-              Ahora mismo tu puedes compartirnos tu experiencia a traves de nuestro siguiente formulario
+              Ahora mismo tu puedes compartirnos tu experiencia a traves de nuestro facebook messenger
             </h4>
             <div className="mt-3">
               <a
                 className="px-5 py-3 flex-grow-1 font-color-white about-blog"
-                href="https://www.netlify.com/blog/2020/07/09/create-a-fully-fledged-jamstack-commerce-store-with-commerce.js-and-netlify/"
+                href="m.me/malteadas.sf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

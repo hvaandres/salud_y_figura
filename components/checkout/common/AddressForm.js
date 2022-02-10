@@ -60,7 +60,7 @@ export default class AddressForm extends Component {
           <div className="col-12 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Full name*
+                Nombre completo*
               </p>
               <input required name={`${type}[name]`} autoComplete="name" value={name} className="rounded-0 w-100" />
             </label>
@@ -70,7 +70,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Country*
+                Pais*
               </p>
               <Dropdown
                 required
@@ -99,7 +99,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Address line 1*
+                Domicilio linea 1*
               </p>
               <input
                 required
@@ -114,7 +114,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Address line 2 (optional)
+                Domicilio linea 2 (opcional)
               </p>
               <input
                 name={`${type}[street_2]`}
@@ -129,7 +129,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                State/province/region*
+                Estado/Provincia/Region*
               </p>
               <Dropdown
                 required
@@ -150,7 +150,7 @@ export default class AddressForm extends Component {
           <div className="col-12 col-sm-6 mb-3">
             <label className="w-100">
               <p className="mb-1 font-size-caption font-color-light">
-                Postal code/zip code*
+                Codigo postal/zip code*
               </p>
               <input
                 required

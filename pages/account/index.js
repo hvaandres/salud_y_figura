@@ -56,7 +56,7 @@ class CustomerAccountPage extends Component {
       return null;
     }
     return (
-      <small><strong>Customer since:</strong> { this.formatDate(this.props.customer.created) }</small>
+      <small><strong>Cliente desde:</strong> { this.formatDate(this.props.customer.created) }</small>
     );
   }
 
@@ -87,23 +87,23 @@ class CustomerAccountPage extends Component {
   getFulfillmentStatus(status) {
     if (!status) {
       return (
-        <span className="badge badge-secondary">Processing</span>
+        <span className="badge badge-secondary">Procesando</span>
       );
     }
     if (status === 'fulfilled') {
       return (
-        <span className="badge badge-primary">Fullfilled</span>
+        <span className="badge badge-primary">Pedido completo</span>
       );
     }
 
     if (status === 'not_fulfilled') {
       return (
-        <span className="badge badge-secondary">Processing</span>
+        <span className="badge badge-secondary">Procesando</span>
       );
     }
 
     return (
-      <span className="badge badge-secondary">Processing</span>
+      <span className="badge badge-secondary">Procesando</span>
     );
   }
 
@@ -113,30 +113,30 @@ class CustomerAccountPage extends Component {
   getPaymentStatus(status) {
     if (!status) {
       return (
-        <span className="badge badge-secondary">Pending</span>
+        <span className="badge badge-secondary">En espera</span>
       );
     }
 
     if (status === 'not-paid') {
       return (
-        <span className="badge badge-warning">Not paid</span>
+        <span className="badge badge-warning">Falta por pagar</span>
       );
     }
 
     if (status === 'paid') {
       return (
-        <span className="badge badge-success">Paid</span>
+        <span className="badge badge-success">Pagado</span>
       );
     }
 
     if (status === 'refunded') {
       return (
-        <span className="badge badge-danger">Refunded</span>
+        <span className="badge badge-danger">Rembolso</span>
       );
     }
 
     return (
-      <span className="badge badge-secondary">Pending</span>
+      <span className="badge badge-secondary">En espera</span>
     );
   }
 
@@ -149,7 +149,7 @@ class CustomerAccountPage extends Component {
     if (!orders || !orders.length) {
       return (
         <div>
-          You havent placed an order yet!
+          Al parecer, nos has realizado ninguna order!
         </div>
       );
     }
@@ -177,7 +177,7 @@ class CustomerAccountPage extends Component {
     if (!orders || !orders.length) {
       return (
         <div className="card text-center p-2">
-          <p>You haven&apos;t placed any orders yet!</p>
+          <p>Al parecer no has realizado ninguna orden!</p>
         </div>
       );
     }
@@ -186,11 +186,11 @@ class CustomerAccountPage extends Component {
       <table className="table table-bordered">
       <thead>
         <tr>
-          <th>Order</th>
-          <th>Payment</th>
-          <th>Fulfillment</th>
+          <th>Orden</th>
+          <th>Pago</th>
+          <th>Pedidos</th>
           <th>Total</th>
-          <th>Actions</th>
+          <th>Acciones</th>
         </tr>
       </thead>
       <tbody>
@@ -214,7 +214,7 @@ class CustomerAccountPage extends Component {
               <td>{ order.order_value.formatted_with_symbol }</td>
               <td>
                 <Link href={`account/${order.id}`}>
-                  <a>View order</a>
+                  <a>Ver orden</a>
                 </Link>
               </td>
             </tr>
@@ -276,7 +276,7 @@ class CustomerAccountPage extends Component {
             <div className="row mt-4">
               <div className="col-12">
                 <h2 className="font-size-header mb-4 pt-5 text-center">
-                  My account
+                  Mi cuenta
                 </h2>
                 { this.renderAlert() }
               </div>
@@ -303,7 +303,7 @@ class CustomerAccountPage extends Component {
                     { email }
                   </a>
                   <h6>
-                    Shipping address
+                    Direccion de Envio
                   </h6>
                   { this.renderShippingAddress() }
                 </div>

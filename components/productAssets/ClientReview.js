@@ -5,32 +5,32 @@ import Modal from '../common/atoms/Modal';
 const reviews = [
   {
     stars: '5',
-    title: 'Perfect',
-    description: 'Great fit and feel. They elevate lounging to the next level!',
+    title: 'Encantada del producto',
+    description: 'Este tipo de producto es el que necesito para mantenet mi cueerpo en forma!',
     reviewBy: 'Heidi C.',
     date: 'December, 2019'
   },
   {
     stars: '3.5',
-    title: 'So comfortable!',
+    title: 'El mejor producto!',
     description:
-      'I sized up just in case and kind of wished I hadn’t. Very comfortable and I live in them exclusively during the weekend.',
+      'Estas malteadas en verdad que ayudan, ya que me han permetido mejorar y mantener mi salud',
     reviewBy: 'Heidi C.',
     date: 'December, 2019'
   },
   {
     stars: '4',
-    title: 'Comfy but thin',
+    title: 'Un producto que puedo recomendar',
     description:
-      'Comfortable but kinda thin for a pant. I typically wear a 32/33 pant and had to size up to XL for these to not fit like a legging. Have been wearing pretty solid for a month of so and there\'s some pilling, but not a lot. Good price for OK product.',
+      'En verdad que estas malteadas, me han ayudado a mejorar mi calidad de vida',
     reviewBy: 'Heidi C.',
     date: 'December, 2019'
   },
   {
     stars: '5',
-    title: 'So comfortable!',
+    title: 'Increible!',
     description:
-      'I sized up just in case and kind of wished I hadn’t. Very comfortable and I live in them exclusively during the weekend.',
+      'No nada mas es el ejercicio, sino tambien del como cuidas tu cuerpo',
     reviewBy: 'Heidi C.',
     date: 'December, 2019'
   }
@@ -74,7 +74,7 @@ export default class ClientReview extends Component {
         >
           <div className="d-flex justify-content-between align-items-center pb-3">
             <p className="font-size-subheader font-weight-medium">
-              All reviews
+              Nuestros reviews
             </p>
             <img
               tabIndex="0"
@@ -90,7 +90,7 @@ export default class ClientReview extends Component {
           <div className="col-12 col-lg-10 offset-lg-1">
             <div className="d-flex justify-content-between flex-column flex-sm-row align-items-sm-center mb-3">
               <p className="font-size-title font-weight-medium mb-2 mb-sm-0">
-                4.3 stars from 10 reviews
+                4.3 estrellas por 10 reviews
               </p>
             </div>
             <ReviewList reviews={reviews}>
@@ -99,7 +99,7 @@ export default class ClientReview extends Component {
                 onClick={this.handleOpen}
                 className="text-center bg-transparent w-100 h-72 px-3 text-decoration-underline"
               >
-                View all reviews
+                Ve todas nuestros reviews
               </button>
             </ReviewList>
           </div>

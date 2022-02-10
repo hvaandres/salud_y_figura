@@ -108,23 +108,23 @@ class Confirm extends Component {
                   <img src="/icon/check.svg" className="w-40" alt="" />
                 </div>
                 <h3 className="text-center font-family-secondary mb-3">
-                  Thank you for your purchase!
+                  Gracias por tu compra!
                 </h3>
                 <h4 className="text-center font-size-subheader mb-3">
-                Your order completed successfully
+                Tu orden ha sido procesada.
                 </h4>
                 <p className="text-center font-color-light mb-5">
-                  Here is your order number for reference: {orderReceipt.customer_reference}
+                  Este es tu numero de referencia: {orderReceipt.customer_reference}
                 </p>
                 <div className="d-flex w-100 justify-content-center flex-column flex-sm-row">
                   <Link href="/">
                     <a className="checkout-confirm-buttons px-3 py-3 text-center flex-grow-1 border bg-white border-color-gray500 font-color-light mb-2 mb-sm-0 mr-sm-2 no-print">
-                      Go back home
+                      Regresa a la pagina principal.
                     </a>
                   </Link>
                   <Link href="/collection">
                     <a className="checkout-confirm-buttons px-3 py-3 text-center flex-grow-1 bg-black font-color-white no-print">
-                      Continue shopping
+                      Continua comprando
                     </a>
                   </Link>
                 </div>
@@ -146,7 +146,7 @@ class Confirm extends Component {
                   <div className="border-bottom border-color-gray400 d-flex align-items-start py-4 flex-column flex-sm-row">
                     <div>
                       <p className="font-color-light mr-4 mb-3 mb-sm-0">
-                        Ships to
+                        Envio a
                       </p>
                     </div>
                     <div className="flex-grow-1">

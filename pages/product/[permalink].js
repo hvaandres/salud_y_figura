@@ -102,13 +102,13 @@ export default function Product() {
             onClick={toggleShipping}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Shipping and returns
+            Envios y Devoluciones
             <img src="/icon/plus.svg" />
           </div>
           <Collapse isOpened={showShipping}>
             <div className="pb-4 font-color-medium">
-              Arrives in 5 to 7 days, returns accepted within 30
-              days. For more information, click here.
+              Tu producto estara llegando dentro de 5 a 7 dias, al momento no se aceptan devoluciones.
+              Para mas informacion, haz click aqui.
             </div>
           </Collapse>
           <div className="h-1 border-bottom border-color-black" />
@@ -116,7 +116,7 @@ export default function Product() {
             onClick={toggleDetails}
             className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
           >
-            Details
+            Detalles
             <img src="/icon/plus.svg" />
           </div>
           <Collapse isOpened={showDetails}>
