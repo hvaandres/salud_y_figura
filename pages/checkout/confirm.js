@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 const OrderConfirm = dynamic(() => import('../../components/checkout/Confirm'),
   { ssr: false }
 )
-
+// Confirm
 function Confirm() {
   return (
     <>
